@@ -48,6 +48,20 @@ nav ul {
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
+    cursor: pointer;
+}
+
+.call {
+    border: 1px solid  #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FD6E0A;
+    padding: 18px 23px;
+    background: #FFF8F3;
+    margin-right: 30px;
+    cursor: pointer;
 }
 
 .banner {
@@ -106,7 +120,7 @@ main {
 
 }
 
-.section-title{
+.section-title {
 
     font-weight: 700;
     font-size: 35px;
@@ -148,6 +162,7 @@ main {
 .skills-container {
     display: flex;
     gap: 24px;
+    
 }
 
 .skill-title {
@@ -168,15 +183,16 @@ main {
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
+    cursor: pointer;
 }
 
 /* Resume Styles */
 .resume-content {
     display: flex;
     font-weight: 700;
-font-size: 30px;
-color: #474747;
-gap: 71px;
+    font-size: 30px;
+    color: #474747;
+    gap: 71px;
 }
 
 .resume .title {
@@ -199,46 +215,54 @@ gap: 71px;
     color: #757575;
 
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume-button{
+
+.resume-button {
     text-align: center;
     margin-top: 50px;
 }
 
 /* Contact info styles */
 
-.contact .section-title{
-   margin: 50px;
-    
+.contact .section-title {
+    margin: 50px;
+
     font-weight: 700;
-font-size: 35px;
-text-align: left;
-color: #181818;
+    font-size: 35px;
+    text-align: left;
+    color: #181818;
 }
 
-.contact{
+.contact {
     display: flex;
     background: #FFF8F3;
     gap: 117px;
-    padding:130px 200px;
+    padding: 130px 200px;
     margin-top: 100px;
 }
-.contact input[type="text"],input[type="email"],textarea{
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
-    padding: 18px 30px ;
+    padding: 18px 30px;
     width: 100%;
 }
-.contact-description{
+
+.contact-description {
     margin-bottom: 30px;
     margin-top: 20px;
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
-input{
+
+input {
     height: 24px;
 }
